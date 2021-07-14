@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = {"./src/test/resources"}
-        , glue = {}
+        , glue = {"br.com.teamone.web", "br.com.teamone.settings"}
         , tags = "@web"
         , plugin = {"pretty", "json:target/cucumber.json", "html:target/cucumber-reports.html"}
         , monochrome = true
