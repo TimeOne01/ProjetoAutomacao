@@ -7,7 +7,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class SeleniumRobot extends BaseTest {
 
-    public void esperaFicarVisivelEClica (WebElement element){
+    public void esperaFicarVisivelEClica(WebElement element){
         wait.until(ExpectedConditions.elementToBeClickable(element));
         element.click();
     }
