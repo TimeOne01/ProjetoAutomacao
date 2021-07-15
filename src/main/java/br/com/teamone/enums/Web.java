@@ -8,6 +8,11 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import java.util.HashMap;
 import java.util.Map;
 
+
+/**
+ * Enum de configuração dos Navegadores
+ * CHROME configurado
+ */
 public enum Web implements WebApplication {
     /**
      * Chrome configurado para ser usado como Driver dos teste
