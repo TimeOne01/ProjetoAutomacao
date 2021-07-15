@@ -15,7 +15,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = {"./src/test/resources"}
-        , glue = {"br.com.teamone.web", "br.com.teamone.settings"}
+        , glue = {"br.com.teamone.web", "br.com.teamone.settings", "br.com.teamone.commons"}
         , tags = "@web"
         , plugin = {"pretty", "json:target/cucumber.json", "html:target/cucumber-reports.html"}
         , monochrome = true

@@ -30,7 +30,7 @@ public enum Web implements WebApplication {
     /**
      * Metódo no qual é configurado as preferências do navegador Chrome
      * @return Map<String, Object>,
-     *                            String: Índice do atributo de preferências;
+     *                            String: Indice do atributo de preferências;
      *                            Object: Valor atribuido
      */
     protected Map<String, Object> prefs() {

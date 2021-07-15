@@ -8,7 +8,8 @@ public class Hooks extends  BaseTest {
     @Before
     public void setUp() {
         System.out.println("Abrindo o Navegador");
-        initializeWebApplication(Web.CHROME, "https://automacaocombatista.herokuapp.com/");
+        initializeWebApplication(Web.CHROME,
+                "https://automacaocombatista.herokuapp.com/");
     }
 
     @After
