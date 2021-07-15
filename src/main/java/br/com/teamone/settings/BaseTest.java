@@ -4,6 +4,10 @@ import br.com.teamone.interfaces.WebApplication;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+
+/**
+ * Classe abstrata de inicialização e fechamento do do webdriver
+ */
 public abstract class BaseTest {
 
     protected static WebDriver webDriver;
