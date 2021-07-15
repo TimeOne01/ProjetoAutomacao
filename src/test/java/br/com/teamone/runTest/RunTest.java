@@ -5,6 +5,13 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
+/**
+ * Classe RunTest para executar os teste criado com o cucumber.
+ * * ATENÇÃO: Não esqueça de atualizar as configurações do CucumberOptions.
+ * * features: path da pasta onde estão os arquivos de bdd com os cenários de teste;
+ * * glue: path de onde estão os arquivos (as classes onde foram implementados) de execução dos cenários;
+ * * tags: a tag dos cenários ou funcionalidades que serão executadas no Teste.
+ */
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = {"./src/test/resources"}
