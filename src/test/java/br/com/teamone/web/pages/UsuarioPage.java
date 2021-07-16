@@ -5,17 +5,16 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class HomePage {
-
-    public HomePage(WebDriver driver) {
+public class UsuarioPage {
+    public UsuarioPage(WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
 
-    @FindBy(xpath = "//div[@id='index-banner']/div/div/a")
-    private WebElement botaoComecarAutomacao;
 
-    public WebElement getBotaoComecarAutomacao() {
-        return botaoComecarAutomacao;
+    @FindBy(xpath = "//p[@id='notice']")
+    private WebElement mensagem;
+
+    public WebElement getMensagem() {
+        return mensagem;
     }
 }
-
