@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-//o robot espera o elemento a parecer na tela para depois clicar no mesmo
+
 public class SeleniumRobot extends BaseTest {
 
     public void esperaFicarVisivelEClica(WebElement element){
